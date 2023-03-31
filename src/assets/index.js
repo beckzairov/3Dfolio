@@ -16,17 +16,26 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import vue from "./tech/vue.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import php from "./tech/php.png";
+import sql from "./tech/sql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import alifbank from "./company/alifbank.png";
+import megafon from "./company/megafon.png";
+import freelance from "./company/freelance.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import instaclone from "./instaclone.png";
+import bsmonitoring from "./bsmonitoring.png";
+import teamflow from "./teamflow.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -48,13 +57,22 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  vue,
   redux,
+  php,
+  sql,
   tailwind,
   typescript,
   threejs,
   meta,
   shopify,
   starbucks,
+  alifbank,
+  megafon,
+  freelance,
+  instaclone,
+  bsmonitoring,
+  teamflow,
   tesla,
   carrent,
   jobit,

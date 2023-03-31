@@ -14,12 +14,21 @@ import {
   mongodb,
   git,
   figma,
+  vue,
+  php,
+  sql,
   docker,
   meta,
   starbucks,
+  alifbank,
+  megafon,
+  freelance,
   tesla,
   shopify,
   carrent,
+  instaclone,
+  teamflow,
+  bsmonitoring,
   jobit,
   tripguide,
   threejs,
@@ -46,7 +55,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Bot Developer",
     icon: mobile,
   },
   {
@@ -54,7 +63,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "UI/UX Designer",
     icon: creator,
   },
 ];
@@ -73,16 +82,16 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "PHP",
+    icon: php,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Vue",
+    icon: vue,
   },
   {
     name: "Tailwind CSS",
@@ -93,8 +102,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "SQL",
+    icon: sql,
   },
   {
     name: "Three JS",
@@ -116,24 +125,24 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack Developer Intern.",
+    company_name: "Alif Bank",
+    icon: alifbank,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "February 2020 - April 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Vue.js, Laravel and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "UI/UX Designer",
+    company_name: "Freelance",
+    icon: freelance,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jun 2020 - Feb 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -141,27 +150,27 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "MegaFon",
+    icon: megafon,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "July 2021 - Nov 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Laravel and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -198,66 +207,66 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Team.Flow",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Landing page for CRM applications",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "vite",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
-    image: carrent,
+    image: teamflow,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "InstaClone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Just an Instagram clone",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "Vuejs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Laravel",
         color: "pink-text-gradient",
       },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
+    image: instaclone,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "BS Monitoring",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web application that allows users to monitor Base Stations, view their statuses, logs their datas, dials responsible people automatically when base station goes off.",
     tags: [
       {
-        name: "nextjs",
+        name: "vue",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "sql",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "laravel",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: bsmonitoring,
     source_code_link: "https://github.com/",
   },
 ];
